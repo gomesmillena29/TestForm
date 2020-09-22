@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <title>Teste</title>
+</head>
+
+<body>
+    <h1>Form of Millena</h1>
+    <form class=data>
+
+        <fieldset>
+            <fieldset class="group">
+                <div class="camp">
+                    <label for="name">Nome</label>
+                    <input type="text" id="nome" name="nome" style="width: 10em" value=""
+                        placeholder="Preencha seu Nome">
+                </div>
+                <div class="camp">
+                    <label for="snome">Sobrenome</label>
+                    <input type="text" id="snome" name="snome" style="width: 10em" value=""
+                        placeholder="Preencha seu Sobrenome">
+                </div>
+            </fieldset>
+
+            <div class="camp">
+                <label>Sexo</label>
+                <label>
+                    <input type="radio" name="sexo" value="masculino"> Masculino
+                </label>
+                <label>
+                    <input type="radio" name="sexo" value="feminino"> Feminino
+                </label>
+            </div>
+            <div class="camp">
+                <label for="email">E-mail</label>
+                <input type="text" id="email" name="email" style="width: 20em" value="" placeholder="Digite seu email">
+            </div>
+            <div class="camp">
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone" name="telefone" style="width: 10em" value=""
+                    placeholder="Digite seu Telefone">
+            </div>
+
+            <fieldset class="group">
+                <div class="camp">
+                    <label for="cidade">Cidade</label>
+                    <input type="text" id="cidade" name="cidade" style="width: 10em" value="">
+                </div>
+                <div class="camp">
+                    <label for="estado">Estado</label>
+                    <select name="State" id="state">
+                        <option value="">--</option>
+                        <option value="SP">SP</option>
+                    </select>
+                </div>
+            </fieldset>
+
+            <div class="camp">
+                <label for="mensagem">Mensage</label>
+                <textarea name="message" cols="50" rows="50" id="message" placeholder="Fale conosco!"></textarea>
+            </div>
+    </form>
+    <button type="submit" class="btn_send">Enviar</button>
+    </section>
+    <footer class="footer">
+        <ul class="footer_mediasocial">
+            <li>
+                <a href="https://twitter.com" target="_blank" class="footer_twitter">
+                    <img src="./img/twitter.png" alt="twitter">
+                </a>
+            </li>
+            <li>
+                <a href="https://facebook.com" target="_blank" class="footer_facebook">
+                    <img src="./img/facebook.png" alt="facebook">
+                </a>
+            </li>
+        </ul>
+        <p>Copyright © Form Millena 2020</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+
+
+h1
+{
+    color: #e98777;
+    text-align: center;
+}
+
+.contact
+{
+   text-align: center1; 
+}
+
+.form
+{
+    padding-left: 2px;
+    margin-left: 2px;
+}
+
+.btn_send 
+{
+    padding: 5px;
+    margin: 5px;
+}
+
+.footer_twitter,
+.footer_youtube,
+.footer_facebebook 
+{
+    padding: 15px;
+    width: 50%;
+}
+
+.footer p 
+{
+    color: #8e8a8a;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin: 30px 0;
+}
